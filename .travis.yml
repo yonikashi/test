@@ -9,14 +9,15 @@ virtualenv:
   - system_site_packages: true
 
 before_install:
+
   - apt install python-pip
   - pip install -r requirements/dev.txt
 
 install:
+
   - ./scripts/install.sh
 
-#script: 
+script: 
 
-#  - ./scripts/install.sh
-#  - python scripts/app.py
+  - python scripts/app.py
 
