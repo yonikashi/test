@@ -5,17 +5,18 @@ python:
 
   - "3.6"
 
-#virtualenv:
-#  system_site_packages: true
+virtualenv:
+  - system_site_packages: true
 
 before_install:
   - apt install python-pip
-
-install:
   - pip install -r requirements/dev.txt
 
-script: 
-
+install:
   - ./scripts/install.sh
-  - python scripts/app.py
+
+#script: 
+
+#  - ./scripts/install.sh
+#  - python scripts/app.py
 

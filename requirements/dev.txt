@@ -1,1 +1,8 @@
-Flask=0.12.2
+Flask_Caching
+Flask_SQLAlchemy
+Flask_Bcrypt
+flask_apispec
+Flask
+Flask-JWT-Extended
+Flask-Migrate
+Flask-Cors
